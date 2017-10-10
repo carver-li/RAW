@@ -1,0 +1,40 @@
+//
+//  PrefixHeader.pch
+//  happySchool
+//
+//  Created by 李伟光 on 2017/9/30.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "AppDelegate.h"
+#import "Utility.h"
+#import "Constants.h"
+#import "ALEngine.h"
+#import "NotificationConstants.h"
+
+#import "INavigationController.h"
+
+#import "UserInfo.h"
+
+#import "HUPhotoBrowser.h"
+#import "UIViewController+HUD.h"
+#import "UIView+ASCategory.h"
+#import "UIAlertView+Blocks.h"
+#import "UIImageView+WebCache.h"
+
+#import <UMSocialCore/UMSocialCore.h>
+#import <UMMobClick/MobClick.h>
+#import <UShareUI/UShareUI.h>
+#import "WXApi.h"
+#import <TencentOpenAPI/TencentApiInterface.h>
+#import <TencentOpenAPI/TencentOAuth.h>
+#import "UMSocialWechatHandler.h"
+
+#endif /* PrefixHeader_pch */

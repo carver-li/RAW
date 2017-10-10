@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HomeViewController">
+            <connections>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="homeAD" translatesAutoresizingMaskIntoConstraints="NO" id="0wF-wT-ziy">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="162"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="0wF-wT-ziy" secondAttribute="height" multiplier="125:54" id="4Hs-OW-y5D"/>
+                    </constraints>
+                </imageView>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="cus-Lj-fhU">
+                    <rect key="frame" x="0.0" y="162" width="375" height="505"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="0wF-wT-ziy" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="K7q-f8-RO7"/>
+                <constraint firstAttribute="trailing" secondItem="0wF-wT-ziy" secondAttribute="trailing" id="LOr-aP-LvW"/>
+                <constraint firstItem="cus-Lj-fhU" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="atd-c9-A89"/>
+                <constraint firstAttribute="bottom" secondItem="cus-Lj-fhU" secondAttribute="bottom" id="qgJ-1j-W30"/>
+                <constraint firstItem="cus-Lj-fhU" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="162" id="uPa-1P-vyq"/>
+                <constraint firstAttribute="trailing" secondItem="cus-Lj-fhU" secondAttribute="trailing" id="uwZ-YR-Q02"/>
+                <constraint firstItem="0wF-wT-ziy" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="vSz-zT-xQX"/>
+            </constraints>
+            <point key="canvasLocation" x="25.5" y="52.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="homeAD" width="375" height="162"/>
+    </resources>
+</document>
