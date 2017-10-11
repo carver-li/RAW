@@ -226,7 +226,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		141BBE3E1F7F6573005FD449 /* happySchool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = happySchool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		141BBE3E1F7F6573005FD449 /* KCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		141BBE411F7F6573005FD449 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		141BBE421F7F6573005FD449 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		141BBE481F7F6573005FD449 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -234,10 +234,10 @@
 		141BBE4D1F7F6573005FD449 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		141BBE4F1F7F6573005FD449 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		141BBE501F7F6573005FD449 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		141BBE561F7F6573005FD449 /* happySchoolTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = happySchoolTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		141BBE561F7F6573005FD449 /* KCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		141BBE5A1F7F6573005FD449 /* happySchoolTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = happySchoolTests.m; sourceTree = "<group>"; };
 		141BBE5C1F7F6573005FD449 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		141BBE611F7F6573005FD449 /* happySchoolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = happySchoolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		141BBE611F7F6573005FD449 /* KCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		141BBE651F7F6573005FD449 /* happySchoolUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = happySchoolUITests.m; sourceTree = "<group>"; };
 		141BBE671F7F6573005FD449 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		141BBE731F7F65CF005FD449 /* BaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
@@ -664,9 +664,9 @@
 		141BBE3F1F7F6573005FD449 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				141BBE3E1F7F6573005FD449 /* happySchool.app */,
-				141BBE561F7F6573005FD449 /* happySchoolTests.xctest */,
-				141BBE611F7F6573005FD449 /* happySchoolUITests.xctest */,
+				141BBE3E1F7F6573005FD449 /* KCard.app */,
+				141BBE561F7F6573005FD449 /* KCardTests.xctest */,
+				141BBE611F7F6573005FD449 /* KCardUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1417,9 +1417,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		141BBE3D1F7F6573005FD449 /* happySchool */ = {
+		141BBE3D1F7F6573005FD449 /* KCard */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 141BBE6A1F7F6573005FD449 /* Build configuration list for PBXNativeTarget "happySchool" */;
+			buildConfigurationList = 141BBE6A1F7F6573005FD449 /* Build configuration list for PBXNativeTarget "KCard" */;
 			buildPhases = (
 				141BBE3A1F7F6573005FD449 /* Sources */,
 				141BBE3B1F7F6573005FD449 /* Frameworks */,
@@ -1429,14 +1429,14 @@
 			);
 			dependencies = (
 			);
-			name = happySchool;
+			name = KCard;
 			productName = happySchool;
-			productReference = 141BBE3E1F7F6573005FD449 /* happySchool.app */;
+			productReference = 141BBE3E1F7F6573005FD449 /* KCard.app */;
 			productType = "com.apple.product-type.application";
 		};
-		141BBE551F7F6573005FD449 /* happySchoolTests */ = {
+		141BBE551F7F6573005FD449 /* KCardTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 141BBE6D1F7F6573005FD449 /* Build configuration list for PBXNativeTarget "happySchoolTests" */;
+			buildConfigurationList = 141BBE6D1F7F6573005FD449 /* Build configuration list for PBXNativeTarget "KCardTests" */;
 			buildPhases = (
 				141BBE521F7F6573005FD449 /* Sources */,
 				141BBE531F7F6573005FD449 /* Frameworks */,
@@ -1447,14 +1447,14 @@
 			dependencies = (
 				141BBE581F7F6573005FD449 /* PBXTargetDependency */,
 			);
-			name = happySchoolTests;
+			name = KCardTests;
 			productName = happySchoolTests;
-			productReference = 141BBE561F7F6573005FD449 /* happySchoolTests.xctest */;
+			productReference = 141BBE561F7F6573005FD449 /* KCardTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		141BBE601F7F6573005FD449 /* happySchoolUITests */ = {
+		141BBE601F7F6573005FD449 /* KCardUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 141BBE701F7F6573005FD449 /* Build configuration list for PBXNativeTarget "happySchoolUITests" */;
+			buildConfigurationList = 141BBE701F7F6573005FD449 /* Build configuration list for PBXNativeTarget "KCardUITests" */;
 			buildPhases = (
 				141BBE5D1F7F6573005FD449 /* Sources */,
 				141BBE5E1F7F6573005FD449 /* Frameworks */,
@@ -1465,9 +1465,9 @@
 			dependencies = (
 				141BBE631F7F6573005FD449 /* PBXTargetDependency */,
 			);
-			name = happySchoolUITests;
+			name = KCardUITests;
 			productName = happySchoolUITests;
-			productReference = 141BBE611F7F6573005FD449 /* happySchoolUITests.xctest */;
+			productReference = 141BBE611F7F6573005FD449 /* KCardUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -1494,7 +1494,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 141BBE391F7F6573005FD449 /* Build configuration list for PBXProject "happySchool" */;
+			buildConfigurationList = 141BBE391F7F6573005FD449 /* Build configuration list for PBXProject "KCard" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -1507,9 +1507,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				141BBE3D1F7F6573005FD449 /* happySchool */,
-				141BBE551F7F6573005FD449 /* happySchoolTests */,
-				141BBE601F7F6573005FD449 /* happySchoolUITests */,
+				141BBE3D1F7F6573005FD449 /* KCard */,
+				141BBE551F7F6573005FD449 /* KCardTests */,
+				141BBE601F7F6573005FD449 /* KCardUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -1749,12 +1749,12 @@
 /* Begin PBXTargetDependency section */
 		141BBE581F7F6573005FD449 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 141BBE3D1F7F6573005FD449 /* happySchool */;
+			target = 141BBE3D1F7F6573005FD449 /* KCard */;
 			targetProxy = 141BBE571F7F6573005FD449 /* PBXContainerItemProxy */;
 		};
 		141BBE631F7F6573005FD449 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 141BBE3D1F7F6573005FD449 /* happySchool */;
+			target = 141BBE3D1F7F6573005FD449 /* KCard */;
 			targetProxy = 141BBE621F7F6573005FD449 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1960,7 +1960,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.happyschool.happySchoolTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/happySchool.app/happySchool";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KCard.app/KCard";
 			};
 			name = Debug;
 		};
@@ -1975,7 +1975,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.happyschool.happySchoolTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/happySchool.app/happySchool";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KCard.app/KCard";
 			};
 			name = Release;
 		};
@@ -2010,7 +2010,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		141BBE391F7F6573005FD449 /* Build configuration list for PBXProject "happySchool" */ = {
+		141BBE391F7F6573005FD449 /* Build configuration list for PBXProject "KCard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				141BBE681F7F6573005FD449 /* Debug */,
@@ -2019,7 +2019,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		141BBE6A1F7F6573005FD449 /* Build configuration list for PBXNativeTarget "happySchool" */ = {
+		141BBE6A1F7F6573005FD449 /* Build configuration list for PBXNativeTarget "KCard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				141BBE6B1F7F6573005FD449 /* Debug */,
@@ -2028,7 +2028,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		141BBE6D1F7F6573005FD449 /* Build configuration list for PBXNativeTarget "happySchoolTests" */ = {
+		141BBE6D1F7F6573005FD449 /* Build configuration list for PBXNativeTarget "KCardTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				141BBE6E1F7F6573005FD449 /* Debug */,
@@ -2037,7 +2037,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		141BBE701F7F6573005FD449 /* Build configuration list for PBXNativeTarget "happySchoolUITests" */ = {
+		141BBE701F7F6573005FD449 /* Build configuration list for PBXNativeTarget "KCardUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				141BBE711F7F6573005FD449 /* Debug */,
