@@ -7,6 +7,6 @@
 
 #import "IViewController.h"
 
-@interface HomeViewController : IViewController
+@interface HomeViewController : IViewController <UITableViewDelegate,UITableViewDataSource>
 
 @end

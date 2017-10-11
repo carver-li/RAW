@@ -203,6 +203,20 @@
 		141BC0E71F7F7028005FD449 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 141BC0E51F7F7027005FD449 /* GTMBase64.m */; };
 		141BC0EA1F7F70A3005FD449 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 141BC0E91F7F70A3005FD449 /* libsqlite3.0.tbd */; };
 		141BC0EC1F7F7180005FD449 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 141BC0EB1F7F717F005FD449 /* libz.tbd */; };
+		14F24C0B1F8DFD2D00D65927 /* TTSUIController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14F24C0A1F8DFD2D00D65927 /* TTSUIController.xib */; };
+		14F24C0D1F8DFF6900D65927 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14F24C0C1F8DFF6800D65927 /* AVFoundation.framework */; };
+		14F24C0E1F8DFF7E00D65927 /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14F24C091F8DFD0F00D65927 /* iflyMSC.framework */; };
+		14F24C0F1F8DFFE400D65927 /* AlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F24BF21F8DFCB700D65927 /* AlertView.m */; };
+		14F24C101F8DFFE400D65927 /* PcmPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F24BF51F8DFCB700D65927 /* PcmPlayer.m */; };
+		14F24C111F8DFFE400D65927 /* PopupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F24BF81F8DFCB700D65927 /* PopupView.m */; };
+		14F24C121F8DFFE400D65927 /* TTSConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F24BEB1F8DFC9700D65927 /* TTSConfig.m */; };
+		14F24C131F8DFFE400D65927 /* TTSConfigViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F24BEC1F8DFC9700D65927 /* TTSConfigViewController.m */; };
+		14F24C141F8DFFE400D65927 /* TTSUIController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F24BEA1F8DFC9700D65927 /* TTSUIController.m */; };
+		14F24D0A1F8E019200D65927 /* AKPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F24D051F8E018500D65927 /* AKPickerView.m */; };
+		14F24D0B1F8E019200D65927 /* SAMath.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F24D071F8E018500D65927 /* SAMath.m */; };
+		14F24D0C1F8E019200D65927 /* SAMultisectorControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F24D091F8E018500D65927 /* SAMultisectorControl.m */; };
+		14F24D0F1F8E029500D65927 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14F24D0E1F8E029500D65927 /* AudioToolbox.framework */; };
+		14F24D111F8E078900D65927 /* TTSConfigViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14F24D101F8E078900D65927 /* TTSConfigViewController.xib */; };
 		14F779BB1F7F89B700BA766E /* INavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F779B81F7F89B700BA766E /* INavigationController.m */; };
 		14F779BF1F7F994400BA766E /* StudentRootCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F779BD1F7F994400BA766E /* StudentRootCell.m */; };
 		14F779C01F7F994400BA766E /* StudentRootCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14F779BE1F7F994400BA766E /* StudentRootCell.xib */; };
@@ -603,6 +617,46 @@
 		141BC0E61F7F7027005FD449 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
 		141BC0E91F7F70A3005FD449 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		141BC0EB1F7F717F005FD449 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		14F24BEA1F8DFC9700D65927 /* TTSUIController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTSUIController.m; sourceTree = "<group>"; };
+		14F24BEB1F8DFC9700D65927 /* TTSConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTSConfig.m; sourceTree = "<group>"; };
+		14F24BEC1F8DFC9700D65927 /* TTSConfigViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTSConfigViewController.m; sourceTree = "<group>"; };
+		14F24BED1F8DFC9700D65927 /* TTSConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTSConfig.h; sourceTree = "<group>"; };
+		14F24BEE1F8DFC9700D65927 /* TTSUIController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTSUIController.h; sourceTree = "<group>"; };
+		14F24BEF1F8DFC9700D65927 /* TTSConfigViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTSConfigViewController.h; sourceTree = "<group>"; };
+		14F24BF11F8DFCB700D65927 /* AlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlertView.h; sourceTree = "<group>"; };
+		14F24BF21F8DFCB700D65927 /* AlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlertView.m; sourceTree = "<group>"; };
+		14F24BF41F8DFCB700D65927 /* PcmPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PcmPlayer.h; sourceTree = "<group>"; };
+		14F24BF51F8DFCB700D65927 /* PcmPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PcmPlayer.m; sourceTree = "<group>"; };
+		14F24BF61F8DFCB700D65927 /* PcmPlayerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PcmPlayerDelegate.h; sourceTree = "<group>"; };
+		14F24BF71F8DFCB700D65927 /* PopupView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PopupView.h; sourceTree = "<group>"; };
+		14F24BF81F8DFCB700D65927 /* PopupView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopupView.m; sourceTree = "<group>"; };
+		14F24BFA1F8DFCB700D65927 /* SBJson4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBJson4.h; sourceTree = "<group>"; };
+		14F24BFB1F8DFCB700D65927 /* SBJson4Parser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBJson4Parser.h; sourceTree = "<group>"; };
+		14F24BFC1F8DFCB700D65927 /* SBJson4Parser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBJson4Parser.m; sourceTree = "<group>"; };
+		14F24BFD1F8DFCB700D65927 /* SBJson4StreamParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBJson4StreamParser.h; sourceTree = "<group>"; };
+		14F24BFE1F8DFCB700D65927 /* SBJson4StreamParser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBJson4StreamParser.m; sourceTree = "<group>"; };
+		14F24BFF1F8DFCB700D65927 /* SBJson4StreamParserState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBJson4StreamParserState.h; sourceTree = "<group>"; };
+		14F24C001F8DFCB700D65927 /* SBJson4StreamParserState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBJson4StreamParserState.m; sourceTree = "<group>"; };
+		14F24C011F8DFCB700D65927 /* SBJson4StreamTokeniser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBJson4StreamTokeniser.h; sourceTree = "<group>"; };
+		14F24C021F8DFCB700D65927 /* SBJson4StreamTokeniser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBJson4StreamTokeniser.m; sourceTree = "<group>"; };
+		14F24C031F8DFCB700D65927 /* SBJson4StreamWriter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBJson4StreamWriter.h; sourceTree = "<group>"; };
+		14F24C041F8DFCB700D65927 /* SBJson4StreamWriter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBJson4StreamWriter.m; sourceTree = "<group>"; };
+		14F24C051F8DFCB700D65927 /* SBJson4StreamWriterState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBJson4StreamWriterState.h; sourceTree = "<group>"; };
+		14F24C061F8DFCB700D65927 /* SBJson4StreamWriterState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBJson4StreamWriterState.m; sourceTree = "<group>"; };
+		14F24C071F8DFCB700D65927 /* SBJson4Writer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SBJson4Writer.h; sourceTree = "<group>"; };
+		14F24C081F8DFCB700D65927 /* SBJson4Writer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SBJson4Writer.m; sourceTree = "<group>"; };
+		14F24C091F8DFD0F00D65927 /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = iflyMSC.framework; sourceTree = "<group>"; };
+		14F24C0A1F8DFD2D00D65927 /* TTSUIController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TTSUIController.xib; sourceTree = "<group>"; };
+		14F24C0C1F8DFF6800D65927 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		14F24D041F8E018500D65927 /* AKPickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AKPickerView.h; sourceTree = "<group>"; };
+		14F24D051F8E018500D65927 /* AKPickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AKPickerView.m; sourceTree = "<group>"; };
+		14F24D061F8E018500D65927 /* SAMath.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SAMath.h; sourceTree = "<group>"; };
+		14F24D071F8E018500D65927 /* SAMath.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAMath.m; sourceTree = "<group>"; };
+		14F24D081F8E018500D65927 /* SAMultisectorControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SAMultisectorControl.h; sourceTree = "<group>"; };
+		14F24D091F8E018500D65927 /* SAMultisectorControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SAMultisectorControl.m; sourceTree = "<group>"; };
+		14F24D0D1F8E01A600D65927 /* Definition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Definition.h; sourceTree = "<group>"; };
+		14F24D0E1F8E029500D65927 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		14F24D101F8E078900D65927 /* TTSConfigViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TTSConfigViewController.xib; sourceTree = "<group>"; };
 		14F779B61F7F89B700BA766E /* INavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INavigationController.h; sourceTree = "<group>"; };
 		14F779B81F7F89B700BA766E /* INavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INavigationController.m; sourceTree = "<group>"; };
 		14F779BC1F7F994400BA766E /* StudentRootCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StudentRootCell.h; sourceTree = "<group>"; };
@@ -615,6 +669,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14F24D0F1F8E029500D65927 /* AudioToolbox.framework in Frameworks */,
+				14F24C0E1F8DFF7E00D65927 /* iflyMSC.framework in Frameworks */,
+				14F24C0D1F8DFF6900D65927 /* AVFoundation.framework in Frameworks */,
 				141BC0EC1F7F7180005FD449 /* libz.tbd in Frameworks */,
 				141BC0EA1F7F70A3005FD449 /* libsqlite3.0.tbd in Frameworks */,
 				141BC0981F7F6BD1005FD449 /* libSocialQQ.a in Frameworks */,
@@ -721,6 +778,7 @@
 		141BBE7A1F7F66EE005FD449 /* DataModel */ = {
 			isa = PBXGroup;
 			children = (
+				14F24BE21F8DF4FB00D65927 /* TTS */,
 				141BC0AA1F7F6CA5005FD449 /* UserInfo.h */,
 				141BC0A91F7F6CA5005FD449 /* UserInfo.m */,
 				141BC0591F7F6917005FD449 /* BaseDataModel.h */,
@@ -732,6 +790,7 @@
 		141BBE7B1F7F66EF005FD449 /* Public */ = {
 			isa = PBXGroup;
 			children = (
+				14F24BF01F8DFCB700D65927 /* tools */,
 				141BBE8A1F7F6776005FD449 /* Constants.h */,
 				141BBE891F7F6776005FD449 /* NotificationConstants.h */,
 				141BBE881F7F6776005FD449 /* IViewController.h */,
@@ -783,6 +842,7 @@
 		141BBE7F1F7F66EF005FD449 /* Student */ = {
 			isa = PBXGroup;
 			children = (
+				14F24BE11F8DF47200D65927 /* TTS */,
 				141BC0611F7F6959005FD449 /* StudentRootViewController.h */,
 				141BC0621F7F6959005FD449 /* StudentRootViewController.m */,
 				141BC0631F7F6959005FD449 /* StudentRootViewController.xib */,
@@ -796,6 +856,7 @@
 		141BBE801F7F66EF005FD449 /* Libs */ = {
 			isa = PBXGroup;
 			children = (
+				14F24C091F8DFD0F00D65927 /* iflyMSC.framework */,
 				141BC0E31F7F7027005FD449 /* GTMBase64 */,
 				141BC0C61F7F6FBF005FD449 /* AFNetworking */,
 				141BC0AC1F7F6F84005FD449 /* UIKit+AFNetworking */,
@@ -1408,10 +1469,94 @@
 		141BC0E81F7F70A2005FD449 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				14F24D0E1F8E029500D65927 /* AudioToolbox.framework */,
+				14F24C0C1F8DFF6800D65927 /* AVFoundation.framework */,
 				141BC0EB1F7F717F005FD449 /* libz.tbd */,
 				141BC0E91F7F70A3005FD449 /* libsqlite3.0.tbd */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		14F24BE11F8DF47200D65927 /* TTS */ = {
+			isa = PBXGroup;
+			children = (
+				14F24D031F8E018500D65927 /* SettingView */,
+				14F24D0D1F8E01A600D65927 /* Definition.h */,
+				14F24BED1F8DFC9700D65927 /* TTSConfig.h */,
+				14F24BEB1F8DFC9700D65927 /* TTSConfig.m */,
+				14F24BEF1F8DFC9700D65927 /* TTSConfigViewController.h */,
+				14F24BEC1F8DFC9700D65927 /* TTSConfigViewController.m */,
+				14F24D101F8E078900D65927 /* TTSConfigViewController.xib */,
+				14F24BEE1F8DFC9700D65927 /* TTSUIController.h */,
+				14F24BEA1F8DFC9700D65927 /* TTSUIController.m */,
+				14F24C0A1F8DFD2D00D65927 /* TTSUIController.xib */,
+			);
+			path = TTS;
+			sourceTree = "<group>";
+		};
+		14F24BE21F8DF4FB00D65927 /* TTS */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = TTS;
+			sourceTree = "<group>";
+		};
+		14F24BF01F8DFCB700D65927 /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				14F24BF11F8DFCB700D65927 /* AlertView.h */,
+				14F24BF21F8DFCB700D65927 /* AlertView.m */,
+				14F24BF31F8DFCB700D65927 /* pcmPlayerCode */,
+				14F24BF71F8DFCB700D65927 /* PopupView.h */,
+				14F24BF81F8DFCB700D65927 /* PopupView.m */,
+				14F24BF91F8DFCB700D65927 /* SBJson */,
+			);
+			path = tools;
+			sourceTree = "<group>";
+		};
+		14F24BF31F8DFCB700D65927 /* pcmPlayerCode */ = {
+			isa = PBXGroup;
+			children = (
+				14F24BF41F8DFCB700D65927 /* PcmPlayer.h */,
+				14F24BF51F8DFCB700D65927 /* PcmPlayer.m */,
+				14F24BF61F8DFCB700D65927 /* PcmPlayerDelegate.h */,
+			);
+			path = pcmPlayerCode;
+			sourceTree = "<group>";
+		};
+		14F24BF91F8DFCB700D65927 /* SBJson */ = {
+			isa = PBXGroup;
+			children = (
+				14F24BFA1F8DFCB700D65927 /* SBJson4.h */,
+				14F24BFB1F8DFCB700D65927 /* SBJson4Parser.h */,
+				14F24BFC1F8DFCB700D65927 /* SBJson4Parser.m */,
+				14F24BFD1F8DFCB700D65927 /* SBJson4StreamParser.h */,
+				14F24BFE1F8DFCB700D65927 /* SBJson4StreamParser.m */,
+				14F24BFF1F8DFCB700D65927 /* SBJson4StreamParserState.h */,
+				14F24C001F8DFCB700D65927 /* SBJson4StreamParserState.m */,
+				14F24C011F8DFCB700D65927 /* SBJson4StreamTokeniser.h */,
+				14F24C021F8DFCB700D65927 /* SBJson4StreamTokeniser.m */,
+				14F24C031F8DFCB700D65927 /* SBJson4StreamWriter.h */,
+				14F24C041F8DFCB700D65927 /* SBJson4StreamWriter.m */,
+				14F24C051F8DFCB700D65927 /* SBJson4StreamWriterState.h */,
+				14F24C061F8DFCB700D65927 /* SBJson4StreamWriterState.m */,
+				14F24C071F8DFCB700D65927 /* SBJson4Writer.h */,
+				14F24C081F8DFCB700D65927 /* SBJson4Writer.m */,
+			);
+			path = SBJson;
+			sourceTree = "<group>";
+		};
+		14F24D031F8E018500D65927 /* SettingView */ = {
+			isa = PBXGroup;
+			children = (
+				14F24D041F8E018500D65927 /* AKPickerView.h */,
+				14F24D051F8E018500D65927 /* AKPickerView.m */,
+				14F24D061F8E018500D65927 /* SAMath.h */,
+				14F24D071F8E018500D65927 /* SAMath.m */,
+				14F24D081F8E018500D65927 /* SAMultisectorControl.h */,
+				14F24D091F8E018500D65927 /* SAMultisectorControl.m */,
+			);
+			path = SettingView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1501,6 +1646,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 141BBE351F7F6573005FD449;
 			productRefGroup = 141BBE3F1F7F6573005FD449 /* Products */;
@@ -1529,6 +1675,7 @@
 				141BC0231F7F682C005FD449 /* chat_message_back.png in Resources */,
 				141BC00E1F7F682C005FD449 /* Icon@2x.png in Resources */,
 				141BC02D1F7F682C005FD449 /* headImage.jpeg in Resources */,
+				14F24D111F8E078900D65927 /* TTSConfigViewController.xib in Resources */,
 				141BC0A21F7F6BD1005FD449 /* README.txt in Resources */,
 				141BBE4E1F7F6573005FD449 /* LaunchScreen.storyboard in Resources */,
 				141BC0241F7F682C005FD449 /* Chat_record_circle.png in Resources */,
@@ -1552,6 +1699,7 @@
 				141BC0271F7F682C005FD449 /* chat_voice_record.png in Resources */,
 				141BC0651F7F6959005FD449 /* StudentRootViewController.xib in Resources */,
 				141BC02C1F7F682C005FD449 /* 1.jpeg in Resources */,
+				14F24C0B1F8DFD2D00D65927 /* TTSUIController.xib in Resources */,
 				141BC00C1F7F682C005FD449 /* 37x-Checkmark.png in Resources */,
 				141BC0281F7F682C005FD449 /* chatfrom_bg_normal.png in Resources */,
 				141BC04D1F7F682C005FD449 /* pick_checked@2x.png in Resources */,
@@ -1582,6 +1730,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14F24D0A1F8E019200D65927 /* AKPickerView.m in Sources */,
+				14F24D0B1F8E019200D65927 /* SAMath.m in Sources */,
+				14F24D0C1F8E019200D65927 /* SAMultisectorControl.m in Sources */,
+				14F24C0F1F8DFFE400D65927 /* AlertView.m in Sources */,
+				14F24C101F8DFFE400D65927 /* PcmPlayer.m in Sources */,
+				14F24C111F8DFFE400D65927 /* PopupView.m in Sources */,
+				14F24C121F8DFFE400D65927 /* TTSConfig.m in Sources */,
+				14F24C131F8DFFE400D65927 /* TTSConfigViewController.m in Sources */,
+				14F24C141F8DFFE400D65927 /* TTSUIController.m in Sources */,
 				141BC0171F7F682C005FD449 /* ReachStateWIFI.m in Sources */,
 				141BC02F1F7F682C005FD449 /* UUImageAvatarBrowser.m in Sources */,
 				141BC0441F7F682C005FD449 /* HUAlbum.m in Sources */,
@@ -1900,6 +2057,7 @@
 				);
 				GCC_PREFIX_HEADER = happySchool/PrefixHeader.pch;
 				INFOPLIST_FILE = happySchool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1933,6 +2091,7 @@
 				);
 				GCC_PREFIX_HEADER = happySchool/PrefixHeader.pch;
 				INFOPLIST_FILE = happySchool/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",

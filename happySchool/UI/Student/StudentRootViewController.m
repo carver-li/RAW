@@ -7,6 +7,7 @@
 
 #import "StudentRootViewController.h"
 #import "StudentRootCell.h"
+#import "TTSUIController.h"
 
 @interface StudentRootViewController () <UICollectionViewDataSource,UICollectionViewDelegate>
 
@@ -24,7 +25,7 @@
     
     [self setTitle:@"学生天地"];
     
-    self.functionList = @[@[@"课程表",@"function_address_book"],@[@"通讯录",@"function_address_book"]];
+    self.functionList = @[@[@"语音合成",@"function_address_book"],@[@"通讯录",@"function_address_book"]];
     
     _rootCollectionView.dataSource = self;
     _rootCollectionView.delegate = self;
@@ -58,7 +59,20 @@
 }
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
-    
+    switch (indexPath.row) {
+        case 0:
+        {
+            NSArray *funtion = [self.functionList objectAtIndex:indexPath.row];
+            
+            TTSUIController *ttsController = [[TTSUIController alloc] initWithNibName:@"TTSUIController" bundle:nil];
+            [ttsController setTitle:[funtion objectAtIndex:0]];
+            ttsController.hidesBottomBarWhenPushed = YES;
+            [self.navigationController pushViewController:ttsController animated:YES];
+            break;
+        }
+        default:
+            break;
+    }
 }
 
 - (void)didReceiveMemoryWarning {
