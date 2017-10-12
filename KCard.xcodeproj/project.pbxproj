@@ -217,6 +217,12 @@
 		14F24D0C1F8E019200D65927 /* SAMultisectorControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F24D091F8E018500D65927 /* SAMultisectorControl.m */; };
 		14F24D0F1F8E029500D65927 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14F24D0E1F8E029500D65927 /* AudioToolbox.framework */; };
 		14F24D111F8E078900D65927 /* TTSConfigViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14F24D101F8E078900D65927 /* TTSConfigViewController.xib */; };
+		14F24D141F8E160900D65927 /* CardModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F24D131F8E160800D65927 /* CardModel.m */; };
+		14F24D191F8E1D4400D65927 /* CardRootCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F24D171F8E1D4400D65927 /* CardRootCollectionViewController.m */; };
+		14F24D1A1F8E1D4400D65927 /* CardRootCollectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14F24D181F8E1D4400D65927 /* CardRootCollectionViewController.xib */; };
+		14F24D1C1F8E23DE00D65927 /* CardStudy in Resources */ = {isa = PBXBuildFile; fileRef = 14F24D1B1F8E23DE00D65927 /* CardStudy */; };
+		14F24D201F8EFFDF00D65927 /* CardDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F24D1E1F8EFFDE00D65927 /* CardDetailViewController.m */; };
+		14F24D211F8EFFDF00D65927 /* CardDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14F24D1F1F8EFFDE00D65927 /* CardDetailViewController.xib */; };
 		14F779BB1F7F89B700BA766E /* INavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F779B81F7F89B700BA766E /* INavigationController.m */; };
 		14F779BF1F7F994400BA766E /* StudentRootCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 14F779BD1F7F994400BA766E /* StudentRootCell.m */; };
 		14F779C01F7F994400BA766E /* StudentRootCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14F779BE1F7F994400BA766E /* StudentRootCell.xib */; };
@@ -657,6 +663,15 @@
 		14F24D0D1F8E01A600D65927 /* Definition.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Definition.h; sourceTree = "<group>"; };
 		14F24D0E1F8E029500D65927 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		14F24D101F8E078900D65927 /* TTSConfigViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TTSConfigViewController.xib; sourceTree = "<group>"; };
+		14F24D121F8E160800D65927 /* CardModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardModel.h; sourceTree = "<group>"; };
+		14F24D131F8E160800D65927 /* CardModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardModel.m; sourceTree = "<group>"; };
+		14F24D161F8E1D4400D65927 /* CardRootCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardRootCollectionViewController.h; sourceTree = "<group>"; };
+		14F24D171F8E1D4400D65927 /* CardRootCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardRootCollectionViewController.m; sourceTree = "<group>"; };
+		14F24D181F8E1D4400D65927 /* CardRootCollectionViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardRootCollectionViewController.xib; sourceTree = "<group>"; };
+		14F24D1B1F8E23DE00D65927 /* CardStudy */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CardStudy; sourceTree = "<group>"; };
+		14F24D1D1F8EFFDE00D65927 /* CardDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardDetailViewController.h; sourceTree = "<group>"; };
+		14F24D1E1F8EFFDE00D65927 /* CardDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardDetailViewController.m; sourceTree = "<group>"; };
+		14F24D1F1F8EFFDE00D65927 /* CardDetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardDetailViewController.xib; sourceTree = "<group>"; };
 		14F779B61F7F89B700BA766E /* INavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INavigationController.h; sourceTree = "<group>"; };
 		14F779B81F7F89B700BA766E /* INavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = INavigationController.m; sourceTree = "<group>"; };
 		14F779BC1F7F994400BA766E /* StudentRootCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StudentRootCell.h; sourceTree = "<group>"; };
@@ -731,6 +746,7 @@
 		141BBE401F7F6573005FD449 /* happySchool */ = {
 			isa = PBXGroup;
 			children = (
+				14F24D1B1F8E23DE00D65927 /* CardStudy */,
 				141BBE791F7F66EE005FD449 /* BussinessEntity */,
 				141BBE7A1F7F66EE005FD449 /* DataModel */,
 				141BBE801F7F66EF005FD449 /* Libs */,
@@ -842,6 +858,7 @@
 		141BBE7F1F7F66EF005FD449 /* Student */ = {
 			isa = PBXGroup;
 			children = (
+				14F24D151F8E1CE300D65927 /* CardStudy */,
 				14F24BE11F8DF47200D65927 /* TTS */,
 				141BC0611F7F6959005FD449 /* StudentRootViewController.h */,
 				141BC0621F7F6959005FD449 /* StudentRootViewController.m */,
@@ -1497,6 +1514,8 @@
 		14F24BE21F8DF4FB00D65927 /* TTS */ = {
 			isa = PBXGroup;
 			children = (
+				14F24D121F8E160800D65927 /* CardModel.h */,
+				14F24D131F8E160800D65927 /* CardModel.m */,
 			);
 			path = TTS;
 			sourceTree = "<group>";
@@ -1557,6 +1576,19 @@
 				14F24D091F8E018500D65927 /* SAMultisectorControl.m */,
 			);
 			path = SettingView;
+			sourceTree = "<group>";
+		};
+		14F24D151F8E1CE300D65927 /* CardStudy */ = {
+			isa = PBXGroup;
+			children = (
+				14F24D161F8E1D4400D65927 /* CardRootCollectionViewController.h */,
+				14F24D171F8E1D4400D65927 /* CardRootCollectionViewController.m */,
+				14F24D181F8E1D4400D65927 /* CardRootCollectionViewController.xib */,
+				14F24D1D1F8EFFDE00D65927 /* CardDetailViewController.h */,
+				14F24D1E1F8EFFDE00D65927 /* CardDetailViewController.m */,
+				14F24D1F1F8EFFDE00D65927 /* CardDetailViewController.xib */,
+			);
+			path = CardStudy;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1669,6 +1701,7 @@
 				141BC0201F7F682C005FD449 /* chat_animation_white2.png in Resources */,
 				141BC0291F7F682C005FD449 /* chatfrom_doctor_icon.png in Resources */,
 				141BBFDD1F7F682B005FD449 /* arrow@2x.png in Resources */,
+				14F24D1A1F8E1D4400D65927 /* CardRootCollectionViewController.xib in Resources */,
 				141BC01E1F7F682C005FD449 /* chat_animation3.png in Resources */,
 				141BC01F1F7F682C005FD449 /* chat_animation_white1.png in Resources */,
 				141BC0461F7F682C005FD449 /* HUAlbumCell.xib in Resources */,
@@ -1681,9 +1714,11 @@
 				141BC0241F7F682C005FD449 /* Chat_record_circle.png in Resources */,
 				141BC02B1F7F682C005FD449 /* 0.jpeg in Resources */,
 				141BC09D1F7F6BD1005FD449 /* WeiboSDK.bundle in Resources */,
+				14F24D211F8EFFDF00D65927 /* CardDetailViewController.xib in Resources */,
 				141BBE4B1F7F6573005FD449 /* Assets.xcassets in Resources */,
 				141BC0221F7F682C005FD449 /* chat_ipunt_message.png in Resources */,
 				141BC06A1F7F696D005FD449 /* MineViewController.xib in Resources */,
+				14F24D1C1F8E23DE00D65927 /* CardStudy in Resources */,
 				14F779C01F7F994400BA766E /* StudentRootCell.xib in Resources */,
 				141BC02A1F7F682C005FD449 /* chatto_bg_normal.png in Resources */,
 				141BC0491F7F682C005FD449 /* HUImagePickerCell.xib in Resources */,
@@ -1734,6 +1769,7 @@
 				14F24D0B1F8E019200D65927 /* SAMath.m in Sources */,
 				14F24D0C1F8E019200D65927 /* SAMultisectorControl.m in Sources */,
 				14F24C0F1F8DFFE400D65927 /* AlertView.m in Sources */,
+				14F24D201F8EFFDF00D65927 /* CardDetailViewController.m in Sources */,
 				14F24C101F8DFFE400D65927 /* PcmPlayer.m in Sources */,
 				14F24C111F8DFFE400D65927 /* PopupView.m in Sources */,
 				14F24C121F8DFFE400D65927 /* TTSConfig.m in Sources */,
@@ -1803,6 +1839,7 @@
 				141BC0E11F7F6FC0005FD449 /* AFURLResponseSerialization.m in Sources */,
 				141BC0001F7F682C005FD449 /* UIImage+Rotation.m in Sources */,
 				141BBFE81F7F682B005FD449 /* MKNetworkEngine.m in Sources */,
+				14F24D141F8E160900D65927 /* CardModel.m in Sources */,
 				141BBFE51F7F682B005FD449 /* ALEngine.m in Sources */,
 				141BBFFF1F7F682C005FD449 /* UIImage+ASCategory.m in Sources */,
 				141BC0DA1F7F6FC0005FD449 /* AFHTTPRequestOperation.m in Sources */,
@@ -1855,6 +1892,7 @@
 				141BBFD71F7F682B005FD449 /* UIImage+MultiFormat.m in Sources */,
 				141BBFE91F7F682B005FD449 /* MKNetworkOperation.m in Sources */,
 				141BBFD51F7F682B005FD449 /* UIButton+WebCache.m in Sources */,
+				14F24D191F8E1D4400D65927 /* CardRootCollectionViewController.m in Sources */,
 				141BBFF21F7F682C005FD449 /* NSDictionary+RequestEncoding.m in Sources */,
 				141BBFDF1F7F682B005FD449 /* MJRefreshConst.m in Sources */,
 				141BC0061F7F682C005FD449 /* UIProgressView+ASCategory.m in Sources */,

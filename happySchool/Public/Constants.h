@@ -25,14 +25,14 @@
 
 /***************    高宽    ***************/
 #define kWindowWidth                    CGRectGetWidth([UIScreen mainScreen].bounds)
-#define kWindowHeight                   CGRectGetHeight([UIScreen mainScreen].applicationFrame)
+#define kWindowHeight                   CGRectGetHeight([UIScreen mainScreen].bounds)
 #define KWindowScale                    kWindowHeight/kWindowWidth
 #define KStatusBarHeight                20.0f
 #define KNAVIGATION_BAR_HEIGHT          44.0f
 #define kTabBarHeight                   49.0f
 
 #define kWindowHeightWithoutTabbar (kWindowHeight - kTabBarHeight)
-#define KWindowHeightWithoutNavigationBar (kWindowHeight - 44)
+#define KWindowHeightWithoutNavigationBar (kWindowHeight - 64)
 #define kWindowHeightWithoutNavigationBarAndTabbar (KWindowHeightWithoutNavigationBar - kTabBarHeight)
 
 #define kContentFrameWithoutNavigationBar CGRectMake(0, 0, kWindowWidth, KWindowHeightWithoutNavigationBar)
