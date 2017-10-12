@@ -6,7 +6,7 @@
 //  Copyright (c) 2015年 iflytek. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "IViewController.h"
 #import <AVFoundation/AVFoundation.h>
 #import "iflyMSC/iflyMSC.h"
 #import "PcmPlayer.h"
@@ -29,7 +29,7 @@ typedef NS_OPTIONS(NSInteger, Status) {
 };
 
 
-@interface TTSUIController : UIViewController
+@interface TTSUIController : IViewController
 
 @property (nonatomic, strong) IFlySpeechSynthesizer * iFlySpeechSynthesizer;
 

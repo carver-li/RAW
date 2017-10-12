@@ -52,11 +52,9 @@
         _textLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 10, 100, 10)];
         _textLabel.numberOfLines = 0;
         _textLabel.font = [UIFont systemFontOfSize:17];
-//        _textLabel.textColor = [UIColor whiteColor];
         _textLabel.textColor = [UIColor greenColor];
         
         _textLabel.textAlignment = ALIGN_CENTER;
-//        _textLabel.backgroundColor = [UIColor clearColor];
         _textLabel.backgroundColor = [UIColor blackColor];
         _textLabel.textAlignment = ALIGN_CENTER;
         [self addSubview:_textLabel];

@@ -30,7 +30,7 @@
 
 
 -(void)defaultSetting {
-    _speed = @"50";
+    _speed = @"20";
     _volume = @"50";
     _pitch = @"50";
     _sampleRate = @"16000";
