@@ -28,21 +28,47 @@
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AZ7-32-XDO">
                     <rect key="frame" x="0.0" y="607" width="375" height="60"/>
                     <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="thj-58-jWv">
+                            <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="60" id="2wz-IB-Ihb"/>
+                            </constraints>
+                            <state key="normal" title="上一个"/>
+                            <connections>
+                                <action selector="onPrevious:" destination="-1" eventType="touchUpInside" id="1IL-N9-bf3"/>
+                            </connections>
+                        </button>
                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="55U-Ys-pec">
-                            <rect key="frame" x="8" y="8" width="359" height="44"/>
-                            <state key="normal" title="学习"/>
+                            <rect key="frame" x="60" y="0.0" width="255" height="60"/>
+                            <state key="normal" title="播放"/>
                             <connections>
                                 <action selector="onStudy:" destination="-1" eventType="touchUpInside" id="1NV-jh-h2Z"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="awy-bC-yJv">
+                            <rect key="frame" x="315" y="0.0" width="60" height="60"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="60" id="lhE-x5-6zx"/>
+                            </constraints>
+                            <state key="normal" title="下一个"/>
+                            <connections>
+                                <action selector="onNext:" destination="-1" eventType="touchUpInside" id="X3B-Fs-57U"/>
                             </connections>
                         </button>
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="60" id="4A5-nb-weU"/>
-                        <constraint firstItem="55U-Ys-pec" firstAttribute="leading" secondItem="AZ7-32-XDO" secondAttribute="leading" constant="8" id="ZsN-VY-Nma"/>
-                        <constraint firstAttribute="bottom" secondItem="55U-Ys-pec" secondAttribute="bottom" constant="8" id="lTC-Rg-OXl"/>
-                        <constraint firstAttribute="trailing" secondItem="55U-Ys-pec" secondAttribute="trailing" constant="8" id="mOa-Gw-cF1"/>
-                        <constraint firstItem="55U-Ys-pec" firstAttribute="top" secondItem="AZ7-32-XDO" secondAttribute="top" constant="8" id="r38-ZF-v7I"/>
+                        <constraint firstItem="awy-bC-yJv" firstAttribute="leading" secondItem="55U-Ys-pec" secondAttribute="trailing" id="Dle-vF-3Y2"/>
+                        <constraint firstItem="55U-Ys-pec" firstAttribute="top" secondItem="AZ7-32-XDO" secondAttribute="top" id="JJL-B0-tb8"/>
+                        <constraint firstAttribute="bottom" secondItem="55U-Ys-pec" secondAttribute="bottom" id="PyU-Q3-Map"/>
+                        <constraint firstAttribute="bottom" secondItem="thj-58-jWv" secondAttribute="bottom" id="QfB-rL-NuC"/>
+                        <constraint firstAttribute="trailing" secondItem="awy-bC-yJv" secondAttribute="trailing" id="S9n-3o-baI"/>
+                        <constraint firstItem="55U-Ys-pec" firstAttribute="leading" secondItem="thj-58-jWv" secondAttribute="trailing" id="b6C-5E-lXm"/>
+                        <constraint firstItem="thj-58-jWv" firstAttribute="top" secondItem="AZ7-32-XDO" secondAttribute="top" id="jxj-JM-u8Y"/>
+                        <constraint firstAttribute="bottom" secondItem="awy-bC-yJv" secondAttribute="bottom" id="oST-u4-leP"/>
+                        <constraint firstItem="thj-58-jWv" firstAttribute="leading" secondItem="AZ7-32-XDO" secondAttribute="leading" id="vgQ-HG-Vw1"/>
+                        <constraint firstItem="awy-bC-yJv" firstAttribute="top" secondItem="AZ7-32-XDO" secondAttribute="top" id="vwN-T7-7vO"/>
                     </constraints>
                 </view>
             </subviews>

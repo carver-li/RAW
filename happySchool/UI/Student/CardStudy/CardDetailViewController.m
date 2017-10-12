@@ -6,12 +6,19 @@
 //
 
 #import "CardDetailViewController.h"
+#import "CardModel.h"
 
 @interface CardDetailViewController () {
     BOOL showImage;
+    NSInteger currentIndex;
+    CardModel *currentCard;
+    
+    NSString *chapterPath;
 }
 
 @property (weak, nonatomic) IBOutlet UIView *rootContainerView;
+
+@property (strong, nonatomic) NSArray *cardList;
 
 @property (strong, nonatomic) UIImageView *cardImageView;
 @property (strong, nonatomic) UILabel *cardNamelabel;
@@ -24,8 +31,33 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     
+    [self loadData];
+    
+    [self loadCardView];
+}
+
+- (void)loadData {
+    currentIndex = 0;
+    chapterPath = [_pathUrl path];
+    
+    NSString *jsonPath = [chapterPath stringByAppendingPathComponent:@"ChapterData.json"];
+    NSData *jsonData = [NSData dataWithContentsOfFile:jsonPath];
+    
+    id JsonObject=[NSJSONSerialization JSONObjectWithData:jsonData
+                                                  options:NSJSONReadingAllowFragments
+                                                    error:nil];
+    
+    self.cardList = [CardModel arrayOfModelsFromDictionaries:JsonObject error:nil];
+    currentCard = [self.cardList objectAtIndex:currentIndex];
+}
+
+- (void)loadCardView {
+    for (UIView *subView in _rootContainerView.subviews) {
+        [subView removeFromSuperview];
+    }
+    
     showImage = YES;
-    UIImage *testImage = [UIImage imageNamed:@"1"];
+    UIImage *testImage = [UIImage imageWithContentsOfFile:[chapterPath stringByAppendingPathComponent:currentCard.cardIcon]];
     
     CGFloat width = kWindowWidth-20.0;
     CGFloat height = width*testImage.size.height/testImage.size.width;
@@ -57,7 +89,7 @@
     _cardNamelabel.adjustsFontSizeToFitWidth = YES;
     _cardNamelabel.backgroundColor = [UIColor whiteColor];
     _cardNamelabel.font = [UIFont boldSystemFontOfSize:containerView1.frame.size.height/2.0];
-    _cardNamelabel.text = @"米";
+    _cardNamelabel.text = currentCard.cardName;
     [containerView2 addSubview:_cardNamelabel];
     
     [containerView1 addTapGestureRecognizerWithTarget:self action:@selector(onFlip)];
@@ -84,6 +116,30 @@
 
 - (IBAction)onStudy:(id)sender {
     
+}
+
+- (IBAction)onPrevious:(id)sender {
+    if (currentIndex > 0) {
+        currentIndex--;
+        currentCard = [self.cardList objectAtIndex:currentIndex];
+        
+        [self loadCardView];
+    }
+    else {
+        [self showTip:@"没有上一张了！"];
+    }
+}
+
+- (IBAction)onNext:(id)sender {
+    if (currentIndex < [self.cardList count]-1) {
+        currentIndex++;
+        currentCard = [self.cardList objectAtIndex:currentIndex];
+        
+        [self loadCardView];
+    }
+    else {
+        [self showTip:@"没有下一张了！"];
+    }
 }
 
 - (void)didReceiveMemoryWarning {

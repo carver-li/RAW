@@ -9,4 +9,6 @@
 
 @interface CardDetailViewController : IViewController
 
+@property (nonatomic,strong) NSURL *pathUrl;
+
 @end

@@ -203,6 +203,8 @@
 		141BC0E71F7F7028005FD449 /* GTMBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 141BC0E51F7F7027005FD449 /* GTMBase64.m */; };
 		141BC0EA1F7F70A3005FD449 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 141BC0E91F7F70A3005FD449 /* libsqlite3.0.tbd */; };
 		141BC0EC1F7F7180005FD449 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 141BC0EB1F7F717F005FD449 /* libz.tbd */; };
+		14C5406B1F8F510B00BE4734 /* CardRootColl.m in Sources */ = {isa = PBXBuildFile; fileRef = 14C540691F8F510B00BE4734 /* CardRootColl.m */; };
+		14C5406C1F8F510B00BE4734 /* CardRootColl.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14C5406A1F8F510B00BE4734 /* CardRootColl.xib */; };
 		14F24C0B1F8DFD2D00D65927 /* TTSUIController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14F24C0A1F8DFD2D00D65927 /* TTSUIController.xib */; };
 		14F24C0D1F8DFF6900D65927 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14F24C0C1F8DFF6800D65927 /* AVFoundation.framework */; };
 		14F24C0E1F8DFF7E00D65927 /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14F24C091F8DFD0F00D65927 /* iflyMSC.framework */; };
@@ -623,6 +625,9 @@
 		141BC0E61F7F7027005FD449 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
 		141BC0E91F7F70A3005FD449 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 		141BC0EB1F7F717F005FD449 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		14C540681F8F510B00BE4734 /* CardRootColl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardRootColl.h; sourceTree = "<group>"; };
+		14C540691F8F510B00BE4734 /* CardRootColl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardRootColl.m; sourceTree = "<group>"; };
+		14C5406A1F8F510B00BE4734 /* CardRootColl.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CardRootColl.xib; sourceTree = "<group>"; };
 		14F24BEA1F8DFC9700D65927 /* TTSUIController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTSUIController.m; sourceTree = "<group>"; };
 		14F24BEB1F8DFC9700D65927 /* TTSConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTSConfig.m; sourceTree = "<group>"; };
 		14F24BEC1F8DFC9700D65927 /* TTSConfigViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTSConfigViewController.m; sourceTree = "<group>"; };
@@ -1584,6 +1589,9 @@
 				14F24D161F8E1D4400D65927 /* CardRootCollectionViewController.h */,
 				14F24D171F8E1D4400D65927 /* CardRootCollectionViewController.m */,
 				14F24D181F8E1D4400D65927 /* CardRootCollectionViewController.xib */,
+				14C540681F8F510B00BE4734 /* CardRootColl.h */,
+				14C540691F8F510B00BE4734 /* CardRootColl.m */,
+				14C5406A1F8F510B00BE4734 /* CardRootColl.xib */,
 				14F24D1D1F8EFFDE00D65927 /* CardDetailViewController.h */,
 				14F24D1E1F8EFFDE00D65927 /* CardDetailViewController.m */,
 				14F24D1F1F8EFFDE00D65927 /* CardDetailViewController.xib */,
@@ -1707,6 +1715,7 @@
 				141BC0461F7F682C005FD449 /* HUAlbumCell.xib in Resources */,
 				141BC0231F7F682C005FD449 /* chat_message_back.png in Resources */,
 				141BC00E1F7F682C005FD449 /* Icon@2x.png in Resources */,
+				14C5406C1F8F510B00BE4734 /* CardRootColl.xib in Resources */,
 				141BC02D1F7F682C005FD449 /* headImage.jpeg in Resources */,
 				14F24D111F8E078900D65927 /* TTSConfigViewController.xib in Resources */,
 				141BC0A21F7F6BD1005FD449 /* README.txt in Resources */,
@@ -1826,6 +1835,7 @@
 				141BBFD01F7F682B005FD449 /* SDWebImageDecoder.m in Sources */,
 				141BC0BF1F7F6F85005FD449 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
 				141BBE751F7F65CF005FD449 /* BaseViewController.m in Sources */,
+				14C5406B1F8F510B00BE4734 /* CardRootColl.m in Sources */,
 				141BBFE61F7F682B005FD449 /* GLClick.m in Sources */,
 				141BC0451F7F682C005FD449 /* HUAlbumCell.m in Sources */,
 				141BBE511F7F6573005FD449 /* main.m in Sources */,

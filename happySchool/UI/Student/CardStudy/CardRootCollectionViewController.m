@@ -7,6 +7,7 @@
 
 #import "CardRootCollectionViewController.h"
 #import "CardDetailViewController.h"
+#import "CardRootColl.h"
 
 @interface CardRootCollectionViewController ()
 
@@ -16,7 +17,7 @@
 
 @implementation CardRootCollectionViewController
 
-static NSString * const reuseIdentifier = @"Cell";
+static NSString * const reuseIdentifier = @"CardRootColl";
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -27,7 +28,7 @@ static NSString * const reuseIdentifier = @"Cell";
     self.clearsSelectionOnViewWillAppear = NO;
     
     // Register cell classes
-    [self.collectionView registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:reuseIdentifier];
+    [self.collectionView registerNib:[UINib nibWithNibName:@"CardRootColl" bundle:nil] forCellWithReuseIdentifier:reuseIdentifier];
     
     // Do any additional setup after loading the view.
 }
@@ -38,7 +39,7 @@ static NSString * const reuseIdentifier = @"Cell";
     NSFileManager *fileManager = [NSFileManager defaultManager];
     //在这里获取应用程序Documents文件夹里的文件及文件夹列表
     
-    NSString *documentDir = [[[NSBundle mainBundle] bundlePath] stringByAppendingPathComponent:@"/CardStudy"];;
+    NSString *documentDir = [[[NSBundle mainBundle] bundlePath] stringByAppendingPathComponent:@"/CardStudy"];
     NSError *error = nil;
     NSArray *fileList = [[NSArray alloc] init];
     
@@ -63,15 +64,25 @@ static NSString * const reuseIdentifier = @"Cell";
     return 1;
 }
 
-
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
     return [_cardChapterList count];
 }
 
+- (CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath {
+    CGFloat width = (kWindowWidth-50)/4.0;
+    return CGSizeMake(width,width+20.0);
+}
+
+- (UIEdgeInsets)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout insetForSectionAtIndex:(NSInteger)section {
+    return UIEdgeInsetsMake(10, 10, 10, 10);
+}
+
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
-    UICollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:reuseIdentifier forIndexPath:indexPath];
+    CardRootColl *cell =  [collectionView dequeueReusableCellWithReuseIdentifier:reuseIdentifier forIndexPath:indexPath];
     
-    // Configure the cell
+    NSURL *url = [self.cardChapterList objectAtIndex:indexPath.row];
+    NSString *name = [[url path] lastPathComponent];
+    [cell loadData:name];
     
     return cell;
 }
@@ -80,6 +91,7 @@ static NSString * const reuseIdentifier = @"Cell";
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
     CardDetailViewController *cardDetailVC = [[CardDetailViewController alloc] initWithNibName:@"CardDetailViewController" bundle:nil];
+    cardDetailVC.pathUrl = [self.cardChapterList objectAtIndex:indexPath.row];
     [self.navigationController pushViewController:cardDetailVC animated:YES];
 }
 
